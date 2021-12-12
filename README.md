@@ -1,2 +1,2 @@
 # CMGPro-Site
-Official Website of CMGPro Photography
+Official Website of CMGPro Studios
