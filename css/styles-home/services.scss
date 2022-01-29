@@ -1,0 +1,37 @@
+@import "../theme";
+
+.services {
+    background-color: $primary-color;
+    display: grid;
+    justify-items: center;
+    padding: 2rem;
+
+        .title {
+            background-color: $primary-color;
+            font-size: xxx-large;
+            color: $negative-color;
+        }
+
+
+        .card-container {
+            background-color: $primary-color;
+            padding: 2rem;
+            display: flex;
+            justify-content: space-around;
+
+                .card {
+                 display: grid;
+                 grid-row-gap: 1px;
+                 grid-direction: row;
+                }
+        }
+
+        .service-description {
+            background-color: $primary-color;
+            text-align: center;
+            font-weight: bolder;
+            color: $secondary-color;
+            margin: 0 20%;
+        }
+
+}

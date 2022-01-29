@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=Satisfy&display=swap');
+@import 'styles-home/header';
+@import 'styles-home/services';
+@import 'styles-home/about';
+
+
+
+html, body, hr {
+	background-color: $secondary-color;
+    box-sizing: border-box;
+	margin: 0;
+	font-family: $text-font;
+}
+
+h1, h2 {
+	font-family: $header-font;
+}

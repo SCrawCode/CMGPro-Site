@@ -1,0 +1,30 @@
+@import '../theme';
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+
+    grid-template-areas: "left right";
+
+    .aboutpic {
+        grid-area: left;
+    }
+
+    .about-right {
+        grid-area: right;
+        text-align: center;
+        padding: 2rem;
+
+            .head {
+                padding-bottom: 2rem;
+                font-size: xx-large;
+                color: $primary-color;
+            }
+
+            .about-description {
+                margin: 0 20%;
+                color: $negative-color;
+            }
+    }
+}

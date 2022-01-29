@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=Satisfy&display=swap");
+.header {
+  position: relative;
+  display: grid;
+  justify-items: center;
+}
+.header .hd-vid {
+  position: relative;
+  height: 75vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.header .hd-vid video {
+  z-index: 0;
+  position: absolute;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.header .hd-nav {
+  z-index: 1;
+  position: absolute;
+  display: grid;
+  justify-items: center;
+  bottom: 0px;
+  font-family: Satisfy, cursive;
+}
+.header .hd-nav .hd-navbar {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding-left: 0px;
+}
+.header .hd-nav .hd-navbar li {
+  list-style: none;
+  display: inline;
+  padding: 0 7vw;
+}
+.header .hd-nav .hd-navbar a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1em;
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: #FFFFFF;
+}
+.header .hd-nav .hd-navbar a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.header .hd-logo {
+  z-index: 1;
+  position: absolute;
+  display: grid;
+  top: 15vh;
+  justify-items: center;
+  align-items: center;
+}
+.header .hd-logo img {
+  width: 75%;
+}
+.header .hd-slogan {
+  z-index: 1;
+  position: absolute;
+  display: grid;
+  bottom: 20vh;
+  justify-items: center;
+  align-items: center;
+}
+.header .hd-slogan h1 {
+  background-color: transparent;
+  color: #FFFFFF;
+}
+
+.services {
+  background-color: #FE0000;
+  display: grid;
+  justify-items: center;
+  padding: 2rem;
+}
+.services .title {
+  background-color: #FE0000;
+  font-size: xxx-large;
+  color: #A8A9AD;
+}
+.services .card-container {
+  background-color: #FE0000;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.services .card-container .card {
+  display: grid;
+  grid-row-gap: 1px;
+  grid-direction: row;
+}
+.services .service-description {
+  background-color: #FE0000;
+  text-align: center;
+  font-weight: bolder;
+  color: #FFFFFF;
+  margin: 0 20%;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+  grid-template-areas: "left right";
+}
+.about .aboutpic {
+  grid-area: left;
+}
+.about .about-right {
+  grid-area: right;
+  text-align: center;
+  padding: 2rem;
+}
+.about .about-right .head {
+  padding-bottom: 2rem;
+  font-size: xx-large;
+  color: #FE0000;
+}
+.about .about-right .about-description {
+  margin: 0 20%;
+  color: #A8A9AD;
+}
+
+html, body, hr {
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Libre Franklin, sans-serif;
+}
+
+h1, h2 {
+  font-family: Satisfy, cursive;
+}
+
+/*# sourceMappingURL=styles.css.map */
