@@ -17,7 +17,7 @@
 
 .hd-title {
   position: absolute;
-  bottom: 20%;
+  bottom: 35%;
   left: 0;
   color: #FFFFFF;
   width: 100vw;
@@ -29,7 +29,7 @@
 .hd-nav {
   position: absolute;
   top: 0;
-  background-color: #000000;
+  background-color: transparent;
 }
 
 .hd-navbar {
