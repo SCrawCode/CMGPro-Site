@@ -274,10 +274,8 @@
 
 .contact-container .contact-form {
   background-color: #A8A9AD;
-  padding: 1rem;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  flex-direction: column;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.75);
   border: 2px solid white;
   border-radius: 15px;
