@@ -158,12 +158,6 @@
 }
 
 .card-links button {
-  border-radius: 9999px;
-  border: 1px solid #A8A9AD;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.50);
-}
-
-.services .card-wrapper .card-links button {
   background-color: #FFFFFF;
   border-color: #A8A9AD;
   color: #FE0000;
@@ -172,9 +166,12 @@
   font-family: Libre Franklin, sans-serif;
   font-size: medium;
   cursor: pointer;
+  border-radius: 9999px;
+  border: 1px solid #A8A9AD;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.50);
 }
 
-.services .card-wrapper .card-links button:hover {
+.card-links button:hover {
   background-color: #A8A9AD;
   color: #FFFFFF;
 }
@@ -182,40 +179,17 @@
 /* About Section */
 
 .about {
-  display: -ms-grid;
-  display: grid;
+  display: flex;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.50);
-  -ms-grid-columns: 1fr 2fr;
-      grid-template-columns: 1fr 2fr;
-  -ms-grid-rows: auto;
-      grid-template-rows: auto;
-      grid-template-areas: "left right";
-}
-
-.about .aboutpic {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: left;
-}
-
-.about .about-right {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  grid-area: right;
   text-align: center;
   padding: 2rem;
 }
 
-.about .about-right .head {
-  padding-bottom: 2rem;
+.about h2 {
   font-size: xx-large;
   color: #FE0000;
 }
 
-.about .about-right .about-description {
-  margin: 0 20%;
-  color: #A8A9AD;
-}
 
 /* Booking Section */
 
