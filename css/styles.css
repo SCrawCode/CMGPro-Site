@@ -310,71 +310,6 @@ html {
 }
 
 
-/* Global Nav-Modal */
-
-.nav-modal-bg {
-  background: rgba(0, 0, 0, .8);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav-modal-contents {
-  height: fit-content;
-  width: 25%;
-  background: #FFFFFF;
-  text-align: center;
-  padding: 40px;
-  position: relative;
-  border-radius: 15px;
-}
-
-.close {
-  background: none;
-  border: none;
-  box-shadow: none;
-  font-size: 45px;
-  font-family: 'Courier New', Courier, monospace;
-  transform: rotate(45deg);
-  position: absolute;
-  top: 0;
-  right: 10px;
-  cursor: pointer;
-}
-
-.nav-modal-contents h2 {
-  position: absolute;
-  top: 0;
-  left: 1rem;
-  color: #FE0000;
-}
-
-.nav-modal-contents ul {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  list-style-type: none;
-  padding-top: 4rem;
-}
-
-.nav-modal-contents a {
-  color: black;
-  font-size: larger;
-  font-weight: bold;
-  background-color: #A8A9AD;
-  color: #FFFFFF;
-  padding: 10px;
-  border-radius: 15px;
-}
-
-.nav-modal-contents a:hover {
-  background-color: #FFFFFF;
-  color: #A8A9AD;
-}
 
 /* Global Header */
 
@@ -383,11 +318,12 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .title {
   color: #FFFFFF;
-  font-size: xx-large;
+  font-size: x-large;
   background-color: transparent;
 }
 
@@ -478,46 +414,6 @@ html {
   color: #FE0000;
 }
 
-.page-book form {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 1rem;
-  gap: 1rem;
-}
-
-.page-book input {
-  background-color: rgba(0, 0, 0, 0.05);
-  border: 2px solid #FE0000;
-  border-radius: 25px;
-  padding: 1rem;
-  color: #FE0000;
-  font-weight: bolder;
-}
-
-.page-book button {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1rem;
-  padding: .5rem;
-  border: 2px solid #FE0000;
-  border-radius: 25px;
-  background-color: #FE0000;
-  font-weight: bolder;
-  color: #FFFFFF;
-  cursor: pointer;
-}
-
-.page-book button:hover {
-  background-color: #FFFFFF;
-  border: #FFFFFF;
-  color: #FE0000;
-  font-weight: bolder;
-}
 
 /* Global Footer */
 
