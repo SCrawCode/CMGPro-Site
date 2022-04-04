@@ -385,10 +385,10 @@ html {
   align-items: center;
 }
 
-.page-header h2 {
+.title {
   color: #FFFFFF;
-  font-size: xxx-large;
-
+  font-size: xx-large;
+  background-color: transparent;
 }
 
 #photo-header {

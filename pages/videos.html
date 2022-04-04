@@ -13,36 +13,22 @@
 	<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
 </head>
-<body x-data="{open: false}">
-
-    <!-- Navbar -->
-        <nav class="page-nav">
-            <ul>
-                <li class="home-link"><a href="../index.html"><img src="../assets/home.png" alt="HOME"></a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#feature-content">Gallery</a></li>
-                <li><a href="#booking">Booking</a></li>
-                <li class="page-link"><a @click="open = true"><img src="../assets/phone-book.png" alt="PAGES"></a></li>
-            </ul>
-        </nav>
-
-    <!-- Nav Modal -->
-    <div class="nav-modal-bg" x-show="open">
-        <div class="nav-modal-contents">
-            <h2>CMG Pro Services</h2>
-
-                <button @click="open = false" class="close">+</button>
-
-                <ul>
-                    <li><a href="./photos.html">Photography</a></li>
-                    <li><a href="./videos.html">Videography</a></li>
-                    <li><a href="./events.html">Events</a></li>
-                </ul>
-        </div>
-    </div>
+<body>
 
     <!-- Header -->
     <header class="page-header" id="video-header">
+        <!-- Navbar -->
+        <nav class="hd-nav">
+            <ul class="hd-navbar">
+                <li class="logo"><a href="../index.html"><img src="../assets/CMGRed.PNG" alt="CMGPro Studios"></a></li>
+                <div class="nav-left">
+                    <li><a href="./photos.html">Photos</a></li>
+                    <li><a href="./videos.html">Videos</a></li>
+                    <li><a href="./events.html">Events</a></li>
+                </div>
+            </ul>
+        </nav>
+        
         <div class="title">
             <h2>CMG Pro Videography</h2>
         </div> 
