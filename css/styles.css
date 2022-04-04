@@ -60,7 +60,7 @@
 }
 
 .nav-left {
-  background-color: rgba(255, 255, 255, 0.50);
+  background-color: rgba(255, 255, 255, 0.30);
   display: flex;
   gap: 1.5rem;
   padding: .75rem;
@@ -279,9 +279,9 @@ html {
 
 .page-nav ul {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  gap: 5rem;
+  gap: 1rem;
   list-style-type: none;
 }
 
@@ -289,8 +289,12 @@ html {
   color: #A8A9AD;
 }
 
-.page-nav .home-link {
+.home-link {
   margin-right: auto;
+}
+
+.home-link img {
+  width: 70px;
 }
 
 .page-nav .page-link {
@@ -403,6 +407,13 @@ html {
 
 #event-header {
   background: url('../assets/eventhead.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#about-header {
+  background: url('../assets/CMGPro.JPEG');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
