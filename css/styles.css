@@ -40,6 +40,7 @@
   gap: 1rem;
   width: 100vw;
   padding-right: 2rem;
+  overflow-x: hidden;
 }
 
 .hd-navbar li, a {
@@ -267,6 +268,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 
