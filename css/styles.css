@@ -110,7 +110,7 @@
 
 .services {
   background-color: #FE0000;
-  padding: 1rem;
+  padding: 2.5rem;
   padding-bottom: 2rem;
   overflow-x: hidden;
   text-align: center;
@@ -126,12 +126,11 @@
 .service-cards {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 4rem;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.50);
   padding: 4rem;
   border-radius: 20px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.90);
 }
 
 .card-wrapper {
@@ -171,34 +170,22 @@
 }
 
 .card-links button {
-  background-color: #FFFFFF;
+  background-color: #FE0000;
   border-color: #A8A9AD;
-  color: #FE0000;
+  color: #FFFFFF;
+  width: 5rem;
   border-radius: 20px;
   padding: 10px;
   font-family: Libre Franklin, sans-serif;
   font-size: medium;
   cursor: pointer;
   border-radius: 9999px;
-  border: 1px solid #A8A9AD;
+  border: 1px solid #FE0000;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.50);
 }
 
 .card-links button:hover {
-  background-color: #A8A9AD;
-  color: #FFFFFF;
-}
-
-/* About Section */
-
-.about {
-  display: flex;
-  text-align: center;
-  padding: 2rem;
-}
-
-.about h2 {
-  font-size: xx-large;
+  background-color: #FFFFFF;
   color: #FE0000;
 }
 
@@ -239,6 +226,7 @@
   text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.75);
   font-weight: bolder;
   font-size: large;
+  padding: -2rem;
 }
 
 .contact-container .contact-form {
@@ -246,6 +234,7 @@
   display: flex;
   flex-direction: column;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.75);
+  justify-content: center;
   border: 2px solid white;
   border-radius: 15px;
 }
@@ -262,6 +251,112 @@
 
 .legal-container p {
   margin-top: 0px;
+}
+
+/* ****Tablet Sizes**** */
+@media screen and (min-width: 600px) {
+ 
+  /* Header */
+ 
+  .header {
+    height: 80vh;
+  }
+
+  .hd-vid {
+    height: 100%;
+  }
+
+  .hd-nav {
+    padding: 1rem;
+  }
+
+  .logo {
+    margin-right: auto;
+    margin-left: 50px;
+  }
+  
+  .logo img {
+    width: 100px;  
+  }
+
+  .nav-left {
+    background-color: rgba(255, 255, 255, 0.30);
+    display: flex;
+    gap: 2.5rem;
+    padding: .75rem;
+    border-radius: 25px;
+  }
+  
+  .nav-left a {
+    color: #FE0000;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.20);
+    font-size: large;
+  }
+
+  .hd-navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: .5rem;
+    gap: 1rem;
+    width: 100vw;
+    padding-right: 3.5rem;
+    overflow-x: hidden;
+  }
+
+  .hd-title {
+    position: absolute;
+    bottom: 45%;
+    left: 0;
+    color: #FFFFFF;
+    width: 100vw;
+    font-size: x-large;
+    text-align: center;
+  }
+
+  /* Services */
+  .services {
+    background-color: #FE0000;
+    padding: 3rem;
+    padding-bottom: 4rem;
+    overflow-x: hidden;
+    text-align: center;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.50);
+  }
+  
+  .title {
+    background-color: #FE0000;
+    font-size: xx-large;
+    color: #A8A9AD;
+  }
+  
+  .service-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.50);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.90);
+  }
+  
+  .card-wrapper {
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.50);
+  }
+
+  /* Contact Page */
+  .contact-container {
+    background-color: #FE0000;
+    text-align: center;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.50);
+    padding: 5rem;
+  }
+
 }
 
 /* ***** Global Page Styles ***** */
