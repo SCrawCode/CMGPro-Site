@@ -139,9 +139,11 @@
 .card-wrapper {
   background-color: white;
   width: 100%;
+  max-width: 360px;
   height: fit-content;
   border-radius: 20px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.50);
+  margin: 0 auto;
 }
 
 .card-head {
@@ -190,6 +192,10 @@
 .card-links button:hover {
   background-color: #FFFFFF;
   color: #FE0000;
+}
+
+.service-cards-large {
+  display: none;
 }
 
 
@@ -353,6 +359,7 @@
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.50);
   }
 
+
   /* Contact Page */
   .contact-container {
     background-color: #FE0000;
@@ -361,6 +368,34 @@
     padding: 5rem;
   }
 
+}
+
+/* Laptop->Desktop Styles */
+@media screen and (min-width: 1000px) {
+  .header h1 {
+    font-size: 50px;
+  }
+  
+  .services {
+    padding: 3rem;
+  }
+
+  .services h1 {
+    font-size: 35px;
+  }
+  
+  #carouselExampleControls {
+    display: none;
+  }
+
+  .service-cards-large {
+    display: flex;
+    gap: 1rem;
+    background-color: rgba(0, 0, 0, 0.50);
+    padding: 1.5rem;
+    border-radius: 25px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.50);
+  }
 }
 
 /* ***** Global Page Styles ***** */
@@ -547,3 +582,4 @@ p {
 a {
   text-decoration: none;
 }
+
