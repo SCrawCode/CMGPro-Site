@@ -15,20 +15,32 @@
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.50);
 }
 
-.hd-title {
+.hd-title h1 {
   position: absolute;
-  bottom: 35%;
+  bottom: 37vh;
   left: 0;
   color: #FFFFFF;
   width: 100vw;
-  font-size: x-large;
+  font-size: 45px;
   text-align: center;
+}
+
+.hd-title {
+  animation: fadeOut 0s ease-in 80s;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes fadeOut {
+  to {
+    visibility: hidden;
+  }
 }
 
 
 .hd-nav {
   position: absolute;
-  top: 0;
+  top: .75rem;
   background-color: transparent;
 }
 
@@ -41,6 +53,7 @@
   width: 100vw;
   padding-right: 2rem;
   overflow-x: hidden;
+  box-sizing: unset;
 }
 
 .hd-navbar li, a {
@@ -77,7 +90,7 @@
 
 .hd-vid {
   position: relative;
-  height: 75vh;
+  height: 80vh;
   width: 100%;
   overflow: hidden;
   display: -webkit-box;
@@ -110,7 +123,7 @@
 
 .services {
   background-color: #FE0000;
-  padding: 2.5rem;
+  padding: 5rem 2rem;
   padding-bottom: 2rem;
   overflow-x: hidden;
   text-align: center;
@@ -136,13 +149,23 @@
   border-radius: 20px;
 }
 
+.carousel {
+  background-color: rgba(0, 0, 0, 0.50);
+  padding: 1rem;
+  border-radius: 30px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.50);
+}
+
 .card-wrapper {
   background-color: white;
   width: 100%;
   max-width: 360px;
   height: fit-content;
   border-radius: 20px;
+<<<<<<< HEAD
+=======
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.50);
+>>>>>>> af455b9653661c643721c14008b8022985de55a6
   margin: 0 auto;
 }
 
@@ -204,7 +227,7 @@
 .book-container {
   background-color: #FFFFFF;
   text-align: center;
-  padding: 5rem 2rem;
+  padding: 2rem;
 }
 
 .bk-title {
@@ -446,7 +469,6 @@ html {
 }
 
 
-
 /* Global Header */
 
 .page-header {
@@ -461,6 +483,13 @@ html {
   color: #FFFFFF;
   font-size: x-large;
   background-color: transparent;
+}
+
+/* Header Small Tablet Styles */
+@media screen and (min-width: 600px) {
+  .title h2 {
+    font-size: 50px;
+  }
 }
 
 #photo-header {
@@ -491,22 +520,13 @@ html {
   background-position: center;
 }
 
-/* Global About Section */
-
-.page-about {
-  text-align: center;
-  padding: 2rem 2rem;
+#digital-header {
+  background: url('../assets/digital/OutTheWay.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.page-about h2 {
-  color: #FE0000;
-  font-size: xx-large;
-}
-
-.page-about p {
-  font-size: large;
-  padding-bottom: 1rem;
-}
 
 /* Global Content Feature */
 
@@ -537,6 +557,8 @@ html {
   color: #FFFFFF;
   font-weight: bold;
 }
+
+
 
 /* Global Booking Section */
 
