@@ -25,7 +25,7 @@
 
             <div class="hd-vid">
                <video autoplay loop muted>
-                    <source src="assets/CMGHead2.mp4" type="video/mp4">
+                    <source src="assets/CMGHead3.mp4" type="video/mp4">
                 </video>
             </div>
 
@@ -106,6 +106,7 @@
 					</div>
 				</div>
 			  </div>
+
 			  <div class="carousel-item">
 				<div class="card-wrapper">
 					<a href="pages/photos.html">
@@ -122,22 +123,7 @@
 					</div>
 				</div>
 			  </div>
-			  <div class="carousel-item">
-				<div class="card-wrapper">
-					<a href="pages/photos.html">
-						<div class="card-head">
-							<img src="#" alt="CMG Pro Digital Art">
-						</div>
-						<div class="card-foot">
-							<h2>Digital Art</h2>
-						</div>
-					</a>
-					<div class="card-links">
-						<a href="#booking-section"><button type="button">Book</button></a>
-						<a href="/pages/photos.html#feature-content"><button type="button">Gallery</button></a>
-					</div>
-				</div>
-			  </div>
+			
 			</div>
 			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
 			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -163,7 +149,6 @@
 				<div class="card-links">
 					<a href="#booking-section"><button type="button">Book</button></a>
 					<a href="pages/videos.html#feature-content"><button type="button">Gallery</button></a>
-					<button type="button">Gallery</button>
 				</div>
 			</div>
 			<div class="card-wrapper">
@@ -178,7 +163,6 @@
 				<div class="card-links">
 					<a href="#booking-section"><button type="button">Book</button></a>
 					<a href="pages/photos.html#feature-content"><button type="button">Gallery</button></a>
-					<a href="/pages/photos.html#feature-content"><button type="button">Gallery</button></a>
 				</div>
 			</div>
 			<div class="card-wrapper">
@@ -192,7 +176,7 @@
 				</a>
 				<div class="card-links">
 					<a href="#booking-section"><button type="button">Book</button></a>
-					<button type="button">Gallery</button>
+					<a href="pages/events.html#feature-content"><button type="button">Gallery</button></a>
 				</div>
 			</div>
 			<div class="card-wrapper">
@@ -207,8 +191,7 @@
 				</a>
 				<div class="card-links">
 					<a href="#booking-section"><button type="button">Book</button></a>
-					<a href="pages/events.html#feature-content"><button type="button">Gallery</button></a>
-					<a href="/pages/photos.html#feature-content"><button type="button">Gallery</button></a>
+					<a href="/pages/digital.html#feature-content"><button type="button">Gallery</button></a>
 				</div>
 			</div>
 		</div>
@@ -227,14 +210,14 @@
 
 		<!-- Contact Section -->
 		<section class="contact-container">
-			<div class="contact-form">
+			<div class="contact-form" style="margin: 0 auto;">
 				<h2>Contact CMGPro</h2>
 				<p>Email:</p>
-				<a href="mailto: cmgpro@yahoo.com"><p>cmgpro@yahoo.com</p></a>
+				<a href="mailto: cmgpro@yahoo.com"><p id="form-link">cmgpro@yahoo.com</p></a>
 				<p>Phone:</p>
 				<p>(832) 267-8653</p>
 				<p>Instagram:</p>
-				<a href="https://www.instagram.com/cmgpro_/"><p>@cmgpro</p></a>
+				<a href="https://www.instagram.com/cmgpro_/"><p id="form-link">@cmgpro</p></a>
 			</div>
 		</section>
 
@@ -254,6 +237,14 @@
 
 <style>
 	/* Home Page Responsive Styles */
+
+	#form-link:hover {
+		cursor: pointer;
+		text-decoration: underline;
+		color: black;
+	}
+
+
 
 	/* Small Tablet Styles */
 	@media screen and (min-width: 600px) {
@@ -288,6 +279,10 @@
 		
 		.bk-title h2 {
 			font-size: 35px;
+		}
+
+		.contact-form {
+			max-width: 600px;
 		}
 
 		.contact-container h2 {
