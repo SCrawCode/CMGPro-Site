@@ -25,18 +25,6 @@
   text-align: center;
 }
 
-.hd-title {
-  animation: fadeOut 0s ease-in 80s;
-  animation-fill-mode: forwards;
-
-}
-
-@keyframes fadeOut {
-  to {
-    visibility: hidden;
-  }
-}
-
 
 .hd-nav {
   position: absolute;
@@ -162,10 +150,7 @@
   max-width: 360px;
   height: fit-content;
   border-radius: 20px;
-<<<<<<< HEAD
-=======
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.50);
->>>>>>> af455b9653661c643721c14008b8022985de55a6
   margin: 0 auto;
 }
 
