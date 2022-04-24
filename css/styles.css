@@ -538,9 +538,10 @@ html {
 
 .feature-content button:hover {
   background-color: #FE0000;
-  border: #FE0000;
+  border: 2px solid #FE0000;
   color: #FFFFFF;
-  font-weight: bold;
+  font-weight: bolder;
+  transition: all .5s;
 }
 
 
@@ -564,6 +565,61 @@ html {
   display: flex;
   justify-content: center;
   margin-bottom: 0;
+}
+
+/* Global Gallery */
+.gallery-body {
+  margin: 1rem;
+  text-align: center;
+}
+
+.gallery-body h1 {
+  color: #FE0000;
+}
+
+.gallery-container {
+  margin: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.10);
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+.gallery-img {
+  width: 280px;
+  height: 360px;
+  border: 1px solid slategrey;
+}
+
+.gallery-nav {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.gallery-nav button {
+  width: 100px;
+  height: 37.5px;
+  border-radius: 90px;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  background-color: #FE0000;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.gallery-nav button:hover {
+  background-color: #FFFFFF;
+  color: #FE0000;
+  border: 2px solid #FE0000;
+  transition: all .5s;
+  cursor: pointer;
 }
 
 /* **Universal Styles** */
