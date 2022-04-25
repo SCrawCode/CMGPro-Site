@@ -453,6 +453,10 @@ html {
   font-weight: 900;
 }
 
+.nav-left a {
+  text-decoration: none;
+}
+
 
 /* Global Header */
 
@@ -599,7 +603,6 @@ html {
   .gallery-container {
     width: 100%;
     padding: 1rem;
-    border: none;
   }
 
   .gallery-img {
