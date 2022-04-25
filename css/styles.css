@@ -489,14 +489,14 @@ html {
 }
 
 #video-header {
-  background: url('../assets/vidhead.jpg');
+  background: url('../assets/videohead.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #event-header {
-  background: url('../assets/eventhead.jpg');
+  background: url('../assets/vidhead.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
